@@ -7,10 +7,12 @@
         display: flex;
         width: 100%;
         align-items: center;
+
         .left {
             display: flex;
             align-items: center;
             flex: 10;
+
             .logo {
                 display: inline-block;
                 font-size: 1.6rem;
@@ -43,11 +45,23 @@
                 }
             }
         }
-        .right{
+
+        .right {
             flex: 1;
-            span{
-                    width: 6rem;
-                    display: inline-block;
+
+            div {
+                width: 6rem;
+                display: inline-block;
+                text-align: center;
+                .icon{
+                    font-size: 3rem;
+                    cursor:pointer;
+                }
+            }
+            .horizontal{
+                border:.1rem solid rgba(218, 218, 218, 0.479);
+                height: 2rem;
+                display: inline-block;
             }
         }
     }

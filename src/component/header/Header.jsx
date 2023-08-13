@@ -1,5 +1,7 @@
 import React from 'react'
-import "./header.scss"
+import "./header.scss";
+import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 const Header = () => {
   return (
     <div className='header'>
@@ -11,8 +13,16 @@ const Header = () => {
             </span>            
         </div>
         <div className="right">
-          <span> salam</span>
-          <span>khodahafez</span> 
+          <div>
+             {<Person2OutlinedIcon className ='icon'/>}
+          </div>
+          <span className='horizontal'></span>
+          <div>
+            {<ShoppingCartOutlinedIcon className='icon'/>}  
+            <span className='counter'>
+              1
+            </span>
+          </div> 
        </div>
       </div>
       <div className="bottom"></div>
