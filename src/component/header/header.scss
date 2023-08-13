@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .top {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        .left {
+            display: flex;
+            align-items: center;
+            flex: 10;
+            .logo {
+                display: inline-block;
+                font-size: 1.6rem;
+                width: 10rem;
+                text-align: center;
+                color: red;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+
+            .search {
+                display: inline-block;
+                width: 60rem;
+                border: .1rem solid gray;
+                border-radius: 1rem;
+
+                input {
+                    width: 60rem;
+                    padding: 1rem;
+                    border: none;
+                    background-color: transparent;
+                    font-size: 2rem;
+                    color: rgb(180, 180, 180);
+                    outline: none;
+
+                    &::placeholder {
+                        color: rgb(180, 180, 180);
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+        .right{
+            flex: 1;
+            span{
+                    width: 6rem;
+                    display: inline-block;
+            }
+        }
+    }
+}
