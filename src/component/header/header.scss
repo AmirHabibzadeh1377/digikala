@@ -1,13 +1,14 @@
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
+    flex-direction: column;
+    margin-top: .4rem;
+    box-sizing: border-box;
     .top {
         display: flex;
         width: 100%;
         align-items: center;
-
+margin-top: .4rem;
         .left {
             display: flex;
             align-items: center;
@@ -53,15 +54,68 @@
                 width: 6rem;
                 display: inline-block;
                 text-align: center;
-                .icon{
+                position: relative;
+                cursor: pointer;
+
+                .icon {
                     font-size: 3rem;
-                    cursor:pointer;
+                }
+
+                .arrowIcon {
+                    position: absolute;
+                    top: 10%;
+                    left: 0;
+                    font-size: 2rem;
+                }
+
+                .counter {
+                    background-color: red;
+                    color: white;
+                    display: inline-block;
+                    padding: .5rem .7rem;
+                    border-radius: .5rem;
+                    position: absolute;
+                    bottom: 0;
+                    right: 1rem;
                 }
             }
-            .horizontal{
-                border:.1rem solid rgba(218, 218, 218, 0.479);
+
+            .horizontal {
+                border: .1rem solid rgba(218, 218, 218, 0.479);
                 height: 2rem;
+                margin-right: 1rem;
                 display: inline-block;
+            }
+        }
+    }
+
+    .bottom {
+        width: 100%;
+        font-size: 1.6rem;
+
+        .right {
+            .navCategories {
+                .caltegoryItems {
+                    list-style: none;
+
+                    .categoryItem {
+                        display: inline-block;
+
+                        a {
+                            display: inline-block;
+                            width: 9rem;
+                            text-decoration: none;
+                            margin: 0 1rem;
+                            text-align: center;
+                            padding-top: 1.2rem;
+                            padding-bottom: 1.2rem;
+                            border: .2rem solid transparent;
+                            &:hover {
+                                border-bottom: .2rem solid red;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
