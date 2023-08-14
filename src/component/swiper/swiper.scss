@@ -1,0 +1,29 @@
+.topSwiper{
+    .swiper{
+        transition:all 3s ease;
+        position: relative;
+        .swiperSlide{
+            height: 40rem;
+            &:nth-child(1){
+                background-color: red;
+            }
+            &:nth-child(2){
+                background-color: burlywood;
+            }
+            &:nth-child(3){
+                background-color: green;
+            }
+            &:nth-child(4){
+                background-color: violet;
+            }
+        }
+        .buttons{
+            transition: all .3s ease-out;
+            opacity: 0;
+        }
+
+        &:hover .buttons{
+           opacity: 100;
+        }
+    }
+}
