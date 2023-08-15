@@ -7,14 +7,38 @@ const SiteStories = () => {
   return (
     <div className='siteStories'>
       <ul className="siteStoriesNav">
-        <li className='siteStorieItem'><img src={img1} alt="" /></li>
-        <li className='siteStorieItem'><img src={img2} alt="" /></li>
-        <li className='siteStorieItem'><img src={img3} alt="" /></li>
-        <li className='siteStorieItem'><img src={img4} alt="" /></li>
-        <li className='siteStorieItem'><img src={img1} alt="" /></li>
-        <li className='siteStorieItem'><img src={img2} alt="" /></li>
-        <li className='siteStorieItem'><img src={img3} alt="" /></li>
-        <li className='siteStorieItem'><img src={img4} alt="" /></li>
+        <li className='siteStorieItem'>
+          <img src={img1} alt="" />
+          <p>برنده شو</p>
+        </li>
+        <li className='siteStorieItem'>
+          <img src={img2} alt="" />
+          <p>برنده شو</p>
+        </li>
+        <li className='siteStorieItem'>
+          <img src={img3} alt="" />
+          <p>برنده شو</p>
+        </li>
+        <li className='siteStorieItem'>
+          <img src={img4} alt="" />
+          <p>برنده شو</p>
+        </li>
+        <li className='siteStorieItem'>
+          <img src={img1} alt="" />
+          <p>برنده شو</p>
+        </li>
+        <li className='siteStorieItem'>
+          <img src={img2} alt="" />
+          <p>برنده شو</p>
+        </li>
+        <li className='siteStorieItem'>
+          <img src={img3} alt="" />
+          <p>برنده شو</p>
+        </li>
+        <li className='siteStorieItem'>
+          <img src={img4} alt="" />
+          <p>برنده شو</p>
+        </li>
       </ul>
     </div>
   )
