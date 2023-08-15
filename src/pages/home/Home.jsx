@@ -3,6 +3,7 @@ import Header from '../../component/header/Header';
 import SiteStories from '../../component/siteStories/SiteStories'
 import TopSwiper from '../../component/swiper/TopSwiper';
 import Categories from '../../component/categories/Categories';
+import IncridebleOffer from '../../component/incrideble/IncridebleOffer';
 const home = () => {
   return (
     <div className='container'>
@@ -17,6 +18,7 @@ const home = () => {
       </div>
       <div className="contentContainer">
         <Categories/>
+        <IncridebleOffer/>
       </div>
     </div>
   )
