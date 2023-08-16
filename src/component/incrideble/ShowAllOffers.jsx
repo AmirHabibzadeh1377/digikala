@@ -1,4 +1,4 @@
-import React from 'react'
+import './showAllOffers.scss'
 import ArrowBackOutlinedIcon from '@mui/icons-material/ArrowBackOutlined';
 const ShowAllOffers = () => {
   return (
