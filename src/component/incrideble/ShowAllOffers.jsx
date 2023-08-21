@@ -4,7 +4,7 @@ const ShowAllOffers = () => {
   return (
     <a href="" className='showOffer'>
         <ArrowBackOutlinedIcon className='icon'/>
-        مشاهده همه
+       <p>مشاهده همه</p>
     </a>
   )
 }
