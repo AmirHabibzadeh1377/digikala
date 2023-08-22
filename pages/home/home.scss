@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    direction: rtl;
+}
+.container{
+    width: 99%;
+    margin: 0 auto;
+
+    .headerContainer{
+        box-shadow: .1rem .4rem 1rem .5rem rgba(0,0,0,.47);
+        -webkit-box-shadow : .1rem .4rem 1rem .5rem rgba(128,128,128,.47)
+
+    }
+    .storiesContainer{
+        font-size: 1.6rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .swiperContainer{
+        margin-top: 3rem;
+        font-size: 1.6rem;
+    }
+    .contentContainer{
+        width: 80%;
+        margin:0 auto;
+        font-size: 1.6rem;
+    }
+}

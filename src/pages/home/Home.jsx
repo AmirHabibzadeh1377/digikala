@@ -5,6 +5,10 @@ import TopSwiper from '../../component/swiper/TopSwiper';
 import Categories from '../../component/categories/Categories';
 import IncridebleOffer from '../../component/incrideble/IncridebleOffer';
 const home = () => {
+  if(document.readyState == "complete"){
+    console.log("complete")
+  }
+
   return (
     <div className='container'>
       <div className="headerContainer">

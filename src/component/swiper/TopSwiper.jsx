@@ -13,10 +13,10 @@ const TopSwiper = () => {
         onSwiper={(swiper) => console.log(swiper)}
         className='swiper'
       >
-        <SwiperSlide className='swiperSlide'>Slide 1</SwiperSlide>
-        <SwiperSlide className='swiperSlide'>Slide 2</SwiperSlide>
-        <SwiperSlide className='swiperSlide'>Slide 3</SwiperSlide>
-        <SwiperSlide className='swiperSlide'>Slide 4</SwiperSlide>
+        <SwiperSlide className='swiperSlideTop'>Slide 1</SwiperSlide>
+        <SwiperSlide className='swiperSlideTop'>Slide 2</SwiperSlide>
+        <SwiperSlide className='swiperSlideTop'>Slide 3</SwiperSlide>
+        <SwiperSlide className='swiperSlideTop'>Slide 4</SwiperSlide>
         <div className="buttons">
           <SlideNextButton />
           <SlidePrevButton />

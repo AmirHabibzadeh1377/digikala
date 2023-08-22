@@ -1,4 +1,5 @@
 .showOffer{
+<<<<<<< HEAD
 text-decoration: none;
 font-weight: bold;
 color: black;
@@ -11,3 +12,27 @@ color: black;
         height: 5rem;
     }
 }
+=======
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: white;
+    height: 32.3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-decoration: none;
+    .icon{
+        color: rgb(94, 158, 255);
+        border :.1rem solid rgb(94, 158, 255);
+        border-radius: 50%;
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 1rem;
+    }
+}
+>>>>>>> f371f115 (added new options in the my degikala project)
