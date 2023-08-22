@@ -3,12 +3,12 @@
     margin-bottom: 2rem;
     background-color: red;
     border-radius: 1rem;
-<<<<<<< HEAD
-=======
+
     .swiperSlide {
         padding: 1rem .1rem;
         margin-left: 0 !important;
         background-color: transparent;
+
         .specialOfferBox {
             margin-top: 6rem;
             display: inline-block;
@@ -16,89 +16,73 @@
             color: white;
             text-align: center;
             cursor: pointer;
->>>>>>> f371f115 (added new options in the my degikala project)
 
-    .swiper-wrapper {
-        .swiperSlide {
-            padding: 2rem 0;
-            margin-left: .2rem !important;
-            background-color: transparent;
-            .specialOfferBox {
-                margin-top: 8rem;
-                display: inline-block;
-                width: 30rem;
-                color: white;
-                text-align: center;
-                cursor: pointer;
+            .swiper-wrapper {
+                .swiperSlide {
+                    padding: 2rem 0;
+                    margin-left: .2rem !important;
+                    background-color: transparent;
 
-                .image {
-                    text-align: center;
+                    .specialOfferBox {
+                        margin-top: 8rem;
+                        display: inline-block;
+                        width: 30rem;
+                        color: white;
+                        text-align: center;
+                        cursor: pointer;
 
-                    .specialOfferImageBox {
-                        width: 15rem;
-                        height: 15rem;
+                        .image {
+                            text-align: center;
+                            .specialOfferImageBox {
+                                width: 15rem;
+                                height: 15rem;
+                            }
+                        }
+
+                        .specialOfferText {
+                            display: inline-block;
+                            font-size: 1.6rem;
+                            font-weight: bold;
+                            width: 40%;
+                        }
+
+                        .specialShowAllLink {
+                            font-size: 1.6rem;
+                            font-weight: bold;
+                        }
+                    }
+
+                    .specialOfferText {
+                        display: inline-block;
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                        width: 40%;
+                        margin: 0 auto;
+                    }
+
+                    &:nth-child(2) {
+                        .incredibleSwipper {
+                            a {
+                                border-top-right-radius: 1rem;
+                                border-bottom-right-radius: 1rem;
+                            }
+                        }
                     }
                 }
 
-                .specialOfferText {
-                    display: inline-block;
-                    font-size: 1.6rem;
-                    font-weight: bold;
-                    width: 40%;
-                }
-
-                .specialShowAllLink {
-                    font-size: 1.6rem;
-                    font-weight: bold;
-                }
-            }
-
-<<<<<<< HEAD
-            .showAllOffers {
-                width: 26rem;
-                text-align: center;
-                background-color: white;
-                border-top-left-radius: 1rem;
-                border-bottom-left-radius: 1rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                height: 36.5rem;
-=======
-            .specialOfferText {
-                display: inline-block;
-                font-size: 1.6rem;
-                font-weight: bold;
-                width: 40%;
-                margin:0 auto;
->>>>>>> f371f115 (added new options in the my degikala project)
-            }
-
-            &:nth-child(2){
-                .incredibleSwipper{
-                    a{
-                    border-top-right-radius: 1rem;
-                    border-bottom-right-radius:1rem;
+                &:nth-child(2) {
+                    .incredibleSwipper {
+                        a {
+                            border-top-right-radius: 1rem;
+                            border-bottom-right-radius: 1rem;
+                        }
                     }
                 }
-            }
-        }
-<<<<<<< HEAD
-=======
-       
 
-        &:nth-child(2){
-            .incredibleSwipper{
-                a{
-                    border-top-right-radius:1rem;
-                    border-bottom-right-radius:1rem;
+                &:nth-child(1) {
+                    width: 20rem !important;
                 }
             }
         }
-        &:nth-child(1){
-            width: 20rem !important;
-        }
->>>>>>> f371f115 (added new options in the my degikala project)
     }
 }

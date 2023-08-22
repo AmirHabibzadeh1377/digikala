@@ -1,9 +1,9 @@
 import './loading.scss'
 import StyledContentLoader  from 'styled-content-loader'
-const Loading = ({ isLoading }) => {
+const Loading = () => {
     return (
      <StyledContentLoader>
-      <p className='baforeLoad'>salam</p>
+       <p className='baforeLoad'>salam</p>
     </StyledContentLoader>
     )
 }
