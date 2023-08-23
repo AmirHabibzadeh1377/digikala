@@ -9,7 +9,7 @@ const Categories = () => {
   }
   useEffect(() => {
     getCategories().then((response) => {
-      setCategories(response)
+      setCategories(response.slice(0,9))
     })
   }, [])
   return (

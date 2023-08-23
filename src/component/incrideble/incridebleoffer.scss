@@ -5,84 +5,68 @@
     border-radius: 1rem;
 
     .swiperSlide {
-        padding: 1rem .1rem;
-        margin-left: 0 !important;
+        padding: 2rem 0;
+        margin-left: .2rem !important;
         background-color: transparent;
 
         .specialOfferBox {
-            margin-top: 6rem;
+            margin-top: 8rem;
             display: inline-block;
             width: 20rem;
             color: white;
             text-align: center;
             cursor: pointer;
 
-            .swiper-wrapper {
-                .swiperSlide {
-                    padding: 2rem 0;
-                    margin-left: .2rem !important;
-                    background-color: transparent;
+            .image {
+                text-align: center;
 
-                    .specialOfferBox {
-                        margin-top: 8rem;
-                        display: inline-block;
-                        width: 30rem;
-                        color: white;
-                        text-align: center;
-                        cursor: pointer;
-
-                        .image {
-                            text-align: center;
-                            .specialOfferImageBox {
-                                width: 15rem;
-                                height: 15rem;
-                            }
-                        }
-
-                        .specialOfferText {
-                            display: inline-block;
-                            font-size: 1.6rem;
-                            font-weight: bold;
-                            width: 40%;
-                        }
-
-                        .specialShowAllLink {
-                            font-size: 1.6rem;
-                            font-weight: bold;
-                        }
-                    }
-
-                    .specialOfferText {
-                        display: inline-block;
-                        font-size: 1.6rem;
-                        font-weight: bold;
-                        width: 40%;
-                        margin: 0 auto;
-                    }
-
-                    &:nth-child(2) {
-                        .incredibleSwipper {
-                            a {
-                                border-top-right-radius: 1rem;
-                                border-bottom-right-radius: 1rem;
-                            }
-                        }
-                    }
-                }
-
-                &:nth-child(2) {
-                    .incredibleSwipper {
-                        a {
-                            border-top-right-radius: 1rem;
-                            border-bottom-right-radius: 1rem;
-                        }
-                    }
-                }
-
-                &:nth-child(1) {
-                    width: 20rem !important;
+                .specialOfferImageBox {
+                    width: 15rem;
+                    height: 15rem;
                 }
             }
+
+            .specialOfferText {
+                display: inline-block;
+                font-size: 1.6rem;
+                font-weight: bold;
+                width: 40%;
+            }
+
+            .specialShowAllLink {
+                font-size: 1.6rem;
+                font-weight: bold;
+            }
+        }
+
+        .specialOfferText {
+            display: inline-block;
+            font-size: 1.6rem;
+            font-weight: bold;
+            width: 40%;
+            margin: 0 auto;
+        }
+
+        &:nth-child(2) {
+            .incredibleSwipper {
+                a {
+                    border-top-right-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            .incredibleSwipper {
+                a {
+                    border-top-right-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+                }
+            }
+        }
+
+        &:nth-child(1) {
+            width: 20rem !important;
         }
     }
 }
