@@ -12,15 +12,15 @@ const IncridebleOffer = () => {
     const [load, setLoad] = useState(false);
 
     const getData = async () => {
-        var response = await fetch("https://api.escuelajs.co/api/v1/products");
+        var response = await fetch("http://80.75.14.90:9090/products/incredibleOffers");
         var responseJson = await response.json();
         return responseJson;
     }
-    
+
     useEffect(() => {
         getData().then((res) => {
             if (document.readyState == 'complete') {
-                setProducts(res.filter(item => item.images[1] != null).slice(0, 20))
+                setProducts(res)
                 setLoad(true)
             }
         })
@@ -28,10 +28,10 @@ const IncridebleOffer = () => {
     return (
         <div>
             {!load ?
-                <Loading/>
+                <Loading />
                 :
                 <Swiper
-                    slidesPerView={6}
+                    slidesPerView={5}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                     className='swiper'
@@ -42,7 +42,7 @@ const IncridebleOffer = () => {
                                 پیشنهادات شگفت انگیز
                             </span>
                             <div className='image'>
-                                <img src={boxImage} className='specialOfferImageBox'/>
+                                <img src={boxImage} className='specialOfferImageBox' />
                             </div>
                             <span className='specialShowAllLink'>مشاهده همه</span>
                         </a>
@@ -50,7 +50,7 @@ const IncridebleOffer = () => {
                     {products.map((item) => {
 
                         return <SwiperSlide className='swiperSlide'>
-                            <IncredibleCartItem img={item.images[0]} oldprice={item.price} price={item.price} />
+                            <IncredibleCartItem img={item.indexImageUrl} oldprice={item.price} price={item.priceWithDiscount} />
                         </SwiperSlide>
                     })}
                     <SwiperSlide className='swiperSlide'>
