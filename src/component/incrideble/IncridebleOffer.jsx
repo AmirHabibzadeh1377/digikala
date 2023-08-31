@@ -20,8 +20,15 @@ const IncridebleOffer = () => {
     useEffect(() => {
         getData().then((res) => {
             if (document.readyState == 'complete') {
+<<<<<<< HEAD
                 setProducts(res)
                 setLoad(true)
+=======
+                setProducts(res.filter(item => item.images[1] != null).slice(0, 20))
+                setTimeout(() => {
+                    setLoad(true)
+                }, 1000)
+>>>>>>> 52c1cebc (changes)
             }
         })
     }, [])
